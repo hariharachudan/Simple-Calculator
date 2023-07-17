@@ -14,7 +14,7 @@ def divide(x, y):
         return "Error: Cannot divide by zero."
 
 def simple_calculator():
-    print("Welcome to Simple Calculator!")
+    print("Welcome to  Calculator!")
 
     while True:
         print("\nChoose an operation:")
@@ -27,7 +27,7 @@ def simple_calculator():
         choice = input("Enter your choice (1/2/3/4/5): ")
 
         if choice == '5':
-            print("Thank you for using Simple Calculator. Goodbye!")
+            print("Thank you for using  Calculator. Goodbye!")
             break
 
         num1 = float(input("Enter the first number: "))
